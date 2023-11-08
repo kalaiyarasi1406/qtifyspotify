@@ -1,0 +1,41 @@
+.faqWrapper {
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+}
+.faqSection {
+  width: 1135px;
+  height: 345px;
+  top: 1399px;
+  left: 152px;
+  border-radius: 0px, 0px, 10px, 10px;
+  /* background-color: black; */
+}
+
+.faqTitle {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 75px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.faqQuestions {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.faqAnswer {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: black;
+}

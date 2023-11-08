@@ -1,0 +1,62 @@
+.songsBorder {
+  border-top: 1px solid var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
+}
+
+.wrapper {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 20px;
+}
+
+.toggleText {
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+.cardsWrapper {
+  margin-top: 18px;
+  margin-bottom: 30px;
+}
+
+.genres {
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+  width: 331px;
+  height: 34px;
+  gap: 28px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.genreName:hover {
+  cursor: pointer;
+  border-bottom: 4px solid var(--color-primary);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.selectedGenre {
+  border-bottom: 4px solid var(--color-primary);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.genreName {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.genreNameSection {
+  width: 68px;
+  height: 34px;
+}
